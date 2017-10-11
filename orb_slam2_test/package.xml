@@ -1,0 +1,10 @@
+<package>
+  <name>orb_slam2_test</name>
+  <version>0.0.1</version>
+  <description>Orb slam2 test package</description>
+  <maintainer email="m.ivanov@innopolis.ru">Mike Ivanou</maintainer>
+  <license>MIT</license>
+  <author email="m.ivanov@innopolis.ru">Mike Ivanou</author>
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

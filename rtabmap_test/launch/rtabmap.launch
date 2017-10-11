@@ -41,7 +41,7 @@
 		<param name="subscribe_odom_info"    type="bool" value="true"/>
 	</node>
 
-	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find rtabmap_test)/rviz/nav.rviz"/>
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find rtabmap_test)/rviz/config.rviz"/>
 
   </group>
 </launch>
