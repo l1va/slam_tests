@@ -1,6 +1,6 @@
 <launch>
-    <node name="Mono" pkg="ORB_SLAM2" type="Mono" output="screen"
-    args="$(find ORB_SLAM2)/Vocabulary/ORBvoc.txt $(find orb_slam2_test)/config/cfg.yaml">
+    <node name="MonoNode" pkg="ORB_SLAM2" type="Mono" output="screen"
+        args="$(find ORB_SLAM2)/../../../Vocabulary/ORBvoc.txt $(find orb_slam2_test)/config/cfg.yaml">
 ￼   </node>
 
-</launch>
+ </launch>
