@@ -1,7 +1,7 @@
 <launch>
 
     <arg name="path" default="$(find slam_bags)" />
-    <arg name="file" default="2017-10-09-15-30-40.bag"/>
+    <arg name="file" default="2017-10-26-13-34-38.bag"/>
 
     <node pkg="rosbag" type="play" name="player" output="screen" args="--clock $(arg path)/$(arg file) -r 1.0">
         <remap from="/bebop/image_raw" to="/camera/image_raw"/>
